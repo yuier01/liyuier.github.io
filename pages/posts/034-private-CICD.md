@@ -59,7 +59,7 @@ mv gitea-runner /usr/local/bin/gitea-runner
 ```bash
 gitea-runner register \
     --instance http://localhost:3000 \
-    --token b4kAY3VemF4Q6pgMNEENelzgswtGLaQ6RBRiKiDg \
+    --token <the_token> \
     --name vps-runner \
     --labels ubuntu-latest:host
 

@@ -49,6 +49,13 @@ Next 框架是奶油佬基于 BepInEx 实现的低/无代码 MOD 开发框架，
 
 不过在本次项目中依然有用，比如可以使用导出功能方便快捷地查看游戏内数据。
 
+```
+导出游戏数据步骤
+1. 游戏内按 F4 调出调试窗口
+2. 选择 `杂项调试`
+3. 点击 `导出 Base` ，会自动导出数据。完成后自动打开导出目录。
+```
+
 详见 [【觅长生】Mod制作教程#1.2认识Next框架](https://www.bilibili.com/video/BV18a411T7Mh)
 
 ### 准备
@@ -407,3 +414,11 @@ PlayerEx.Player.getItemNum(good.EXGoodsID)
 仓库地址
 
 https://github.com/liyuier/UseLingshiInsideZongmen
+
+## 补充内容
+
+### 本地测试
+
+可以将构建出的 `.dll` 文件放到 BepInEx 模组目录下，即 `<Steam库路径>\steamapps\workshop\content\1189490\2824349934\BepInEx\plugins` 目录下进行本地测试。
+
+开发完毕后，一定记得删除该目录下的文件。
